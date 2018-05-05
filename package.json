@@ -4,11 +4,12 @@
   "description": "MEAN Stack with Angular 2",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "npm run build:js",
+    "build:js": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gugui3z24/MEAN-Stack-With-Angular-2-Tutorial.git"
+    "url": "git+https://github.com/Ilya1392/Mean-stack-angular2.git"
   },
   "keywords": [
     "MEAN",
@@ -20,9 +21,9 @@
   "author": "David Acosta",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gugui3z24/MEAN-Stack-With-Angular-2-Tutorial/issues"
+    "url": "https://github.com/Ilya1392/Mean-stack-angular2/issues"
   },
-  "homepage": "https://github.com/gugui3z24/MEAN-Stack-With-Angular-2-Tutorial#readme",
+  "homepage": "https://github.com/Ilya1392/Mean-stack-angular2#readme",
   "dependencies": {
     "express": "^4.15.3",
     "mongoose": "^4.10.2"

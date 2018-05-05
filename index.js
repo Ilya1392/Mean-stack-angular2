@@ -9,7 +9,8 @@ const path = require('path'); // NodeJS Package for file paths
 
 // Database Connection
 mongoose.Promise = global.Promise;
-mongoose.connect(config.uri, (err) => {
+
+mongoose.connect(config.getUri(), (err) => {
   if (err) {
     console.log('Could NOT connect to database: ', err);
   } else {
